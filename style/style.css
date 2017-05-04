@@ -1,0 +1,74 @@
+
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+   background-color: white;
+  height: 60px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+
+
+}
+.search-bar{
+  margin:0px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.search-bar input{
+  margin-left: -75px;
+  width:60%;
+  height: 60%;
+
+}
+.video-item img{
+  width: 64px;
+}
+.video-detail .deatails{
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px sold #ddd;
+  border-radius: 4px;
+}
+.list-group-item{
+  cursor:pointer;
+}
+.list-group-item:hover{
+  background-color: #eee;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color:#d3d3d3;
+  color:black;
+
+}
+.container-fluid{
+  margin:0px;
+  width: 100%;
+  height: 100%;
+  background-color:#d3d3d3;
+  color: black;
+}
+.details{
+  background-color:white;
+  margin: 10px;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+.logo{
+  width: 110px;
+  margin-left: 30px;
+  float:left;
+  margin-top: -20px;
+
+}
+.video-detail{
+  margin-top: 80px;
+
+}
+.list-group{
+  margin-top: 80px;
+}
