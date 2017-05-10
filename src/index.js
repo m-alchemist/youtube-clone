@@ -9,7 +9,7 @@ import _ from 'lodash';
 const API_KEY='AIzaSyDLSGFY8jsbzcuVTLouMHs-uGNt_cYhF3I';
 //creat a new component
 //this component will produce html
-YTSearch({key:API_KEY, term:'surfboard'}, function(data){
+YTSearch({key:API_KEY, term:' '}, function(data){
   console.log(data);
 });
 //fetching data from youtube APIKey
@@ -20,7 +20,7 @@ class App extends Component {
     this.state={ videos:[],
     selectedVideo: null,
  }
- this.videoSearch('surfboards');
+ this.videoSearch("mulan");
  }
 
 
